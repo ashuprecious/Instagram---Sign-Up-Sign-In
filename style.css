@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.insta{
+    display: flex;
+    font-size:34px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+    justify-content: center;
+    margin: 20px 10px;
+    /* background-color: rgb(100, 31, 31); */
+}
+input{
+    margin: 5px 10px;
+    width: 80%;
+    height: 25px;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(226, 218, 218);
+}
+.login{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 55vh;
+ width: 25vw;
+ border: 1px solid rgb(243, 217, 217);
+ /* margin: 20px 30px; */
+ background-color: white;
+ box-sizing: border-box;
+
+}
+.btn{
+    color:white;
+    background-color: #347aeb;
+    opacity: 0.7;
+    padding: 5px;
+    width: 21.2vw;
+    height: 34px;
+    border:1px solid white;
+    font-weight: bold;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    color: rgb(223, 192, 136);
+    margin: 10px 0px;
+}
+body{
+    height:100vh;
+    width: 98vw;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+   
+}
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.fb{
+    color:blue;
+    margin-top: 6px;
+}
+.forgot{
+    color:rgb(35, 35, 114);
+    margin-top: 15px;
+    font-size: 12px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+.footer{
+    height:7vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+     border: 1px solid rgb(243, 217, 217);
+    padding: 3px;
+   flex-direction: column;
+   box-sizing:border-box;
+   margin:17px 0px;
+   padding:18px;
+   background-color: white;
+}
+.image img{
+    height: 6vh;
+    width: 10vw;
+    margin-top: 13px;
+}
